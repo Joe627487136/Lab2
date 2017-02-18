@@ -65,19 +65,7 @@ public class MedianThread {
         System.out.println("This is your median number bruh:");
         System.out.println(median(merge(meadianlist)));
         long estimatedTime = System.currentTimeMillis() - startTime;
-        System.out.println(estimatedTime+" fucking milliseconds has been fucked");
-    }
-
-    private static void computeMean(ArrayList<Double> array) {
-        double sum = 0;
-        double mean = 0;
-        for(double d : array){
-            sum+=d;
-        }
-        mean = sum/array.size();
-        System.out.println("fuck u motherfucker");
-        System.out.println("this is the fucking mean:");
-        System.out.println(mean);
+        System.out.println(estimatedTime+" milliseconds has been fucked elapsed");
     }
     static class MyRunnable implements Runnable {
         private ArrayList<Integer> list;

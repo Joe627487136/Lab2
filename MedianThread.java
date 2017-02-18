@@ -65,7 +65,7 @@ public class MedianThread {
         System.out.println("This is your median number bruh:");
         System.out.println(median(merge(meadianlist)));
         long estimatedTime = System.currentTimeMillis() - startTime;
-        System.out.println(estimatedTime+" milliseconds has been fucked elapsed");
+        System.out.println(estimatedTime+" milliseconds has been elapsed");
     }
     static class MyRunnable implements Runnable {
         private ArrayList<Integer> list;

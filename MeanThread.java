@@ -61,7 +61,7 @@ public class MeanThread {
         System.out.println("\nFinished all threads\n");
         computeMean(doublemeanlist);
         long estimatedTime = System.currentTimeMillis() - startTime;
-        System.out.println(estimatedTime+" fucking milliseconds has been fucked");
+        System.out.println(estimatedTime+" milliseconds has been elapsed");
     }
 
     private static void computeMean(ArrayList<Double> array) {
@@ -71,8 +71,7 @@ public class MeanThread {
             sum+=d;
         }
         mean = sum/array.size();
-        System.out.println("fuck u motherfucker");
-        System.out.println("this is the fucking mean:");
+        System.out.println("this is the mean:");
         System.out.println(mean);
 
     }

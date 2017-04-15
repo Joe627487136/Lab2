@@ -14,7 +14,7 @@ import java.util.concurrent.Executors;
 import static Lab2.MedianThread.MyRunnable.meadianlist;
 
 public class MedianThread {
-    private static final String PATH = "/Users/zhouxuexuan/AndroidStudioProjects/Lab2/lab_2/src/main/java/Lab2/input.txt";
+    private static final String PATH = "/Users/zhouxuexuan/AndroidStudioProjects/Lab/lab/src/main/java/Lab2/input.txt";
 
     public static void main(String[] args) throws InterruptedException, FileNotFoundException {
         ArrayList<Integer> array = new ArrayList<Integer>();
